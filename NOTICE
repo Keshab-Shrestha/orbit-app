@@ -1,0 +1,11 @@
+Orbit includes code derived from T3 Code (https://github.com/pingdotgg/t3code), a project
+licensed under the MIT licence. Copyright (c) 2026 T3 Tools Inc. The original copyright
+notice and permission notice are in the file LICENSE. The directories web, sidecar and
+packages hold that code, with the product name changed to Orbit.
+Some visual styling values are derived from MIT-licensed work by this copyright holder:
+Copyright (c) 2026 Emanuele Di Pietro. The MIT permission notice in the file LICENSE applies to
+those values.
+Some Swift input-handling code is derived from MIT-licensed work by the copyright holders named in LICENSE.
+The design of task runs and later orchestration steps follows ideas from Paperclip (https://github.com/paperclipai/paperclip), an MIT-licensed project.
+Orbit copies no code from it.
+Orbit can start OmniRoute (npm package omniroute), an MIT-licensed local AI gateway that the owner installs. Orbit copies no code from it and does not bundle it.
