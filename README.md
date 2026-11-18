@@ -4,7 +4,7 @@ Orbit is a Mac assistant with a team of agents. It runs on your Mac, talks to th
 
 This repository holds the **downloads and install steps**. Get the app from the [latest release](../../releases/latest).
 
-> Version 0.1.0 is an early release. It is signed with a local identity and not notarized by Apple, so macOS asks you to confirm the first open. The steps are below.
+> Version 0.1.1 is an early release. It is signed with a local identity and not notarized by Apple, so macOS asks you to confirm the first open. The steps are below.
 
 ## What it does
 
@@ -27,14 +27,14 @@ This repository holds the **downloads and install steps**. Get the app from the 
 
 ## Install
 
-1. Download `Orbit-0.1.0-arm64.zip` from the [latest release](../../releases/latest).
+1. Download `Orbit-0.1.1-arm64.zip` from the [latest release](../../releases/latest).
 2. Check the download (optional but recommended). In Terminal, in the folder with the file:
 
    ```sh
-   shasum -a 256 -c Orbit-0.1.0-arm64.zip.sha256
+   shasum -a 256 -c Orbit-0.1.1-arm64.zip.sha256
    ```
 
-   It must print `Orbit-0.1.0-arm64.zip: OK`.
+   It must print `Orbit-0.1.1-arm64.zip: OK`.
 3. Double-click the zip. Drag **Orbit.app** into your **Applications** folder.
 4. Open Orbit. macOS blocks the first open, because the app is not notarized. Use one of these:
    - **System Settings.** Open System Settings > Privacy & Security, scroll to the message about Orbit, and click **Open Anyway**. Confirm with your password.
@@ -84,7 +84,7 @@ The app itself contains no speech model. When you first use voice, Orbit asks be
 
 - Apple silicon only. Not notarized yet.
 - Telegram reaches Orbit only while Orbit is open and your Mac is awake.
-- This is version 0.1.0. Expect rough edges. Please [report them](../../issues/new).
+- This is version 0.1.1. Expect rough edges. Please [report them](../../issues/new).
 
 ## Licence
 
